@@ -1,0 +1,178 @@
+body {
+
+    background-image: url(ressources/background.jpg);
+    background-size: cover;
+    font-family: "poppins";
+    
+}
+
+.carte {
+
+    width: 340px;
+    height: 593px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template: 16px 220px 160px 160px 16px / 16px 147px 147px 16px;
+    border-radius: 10px;
+    grid-gap: 5px;
+    background-color: black;
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.7)
+    
+}
+
+.bkgrndVio {
+
+    grid-column: 2 / span 2;
+    grid-row: 2;
+    background-color:#8d4ea7; 
+    
+} 
+
+.tabmoi2 {
+
+    grid-column: 2 / span 2;
+    grid-row: 2;
+    margin-left: 46px;
+    margin-top: 155px;
+    font-size: 16px;
+    color: white;
+
+} 
+
+.tabmoi3 {
+
+    grid-column: 2 / span 2;
+    grid-row: 2;
+    margin-left: 35px;
+    margin-top: 110px;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+
+} 
+
+.bkgrndRge {
+
+    grid-column: 2;
+    grid-row: 3;
+    background-color:#d65140;
+
+}
+
+.tabadr {
+
+    grid-column: 2;
+    grid-row: 3;  
+    font-size: 12px;
+    color: white;
+    margin-top: 90px;
+    text-align: center;
+   
+}
+
+.bkgrndOrge {
+
+    grid-column: 3;
+    grid-row: 3;
+    background-color:#eba02b;
+    
+} 
+
+.tabmotiv {
+
+    grid-column: 3;
+    grid-row: 3;
+    color: white;
+    font-size: 12px;
+    margin-top: 80px;
+    margin-left: 10px;
+    text-align: center;
+    
+
+} 
+
+.bkgrndVrt {
+
+    grid-column: 2;
+    grid-row: 4;
+    background-color:#58973c;
+
+} 
+
+.tabmail {
+
+    grid-column: 2;
+    grid-row: 4;
+    color: white;
+    font-size: 12px;
+    margin-top: 95px;
+    text-align: center;
+
+} 
+
+.bkgrndble {
+
+    grid-column: 3;
+    grid-row: 4;
+    background-color:#3962b5;
+
+} 
+
+.tabsite {
+
+    grid-column: 3;
+    grid-row: 4;
+    color: white;
+    margin-top: 95px;
+    text-align: center;
+    font-size: 12px;
+
+} 
+
+.moi {
+    
+    width: 65px;
+    margin-left: 115px;
+    margin-top: 50px;
+
+}
+
+.adr {
+    
+    width: 60px;
+    margin-left: -110px;
+    margin-top: 265px;
+    
+}
+
+.motiv {
+    
+    width: 60px;
+    margin-left: -110px;
+    margin-top: 260px;
+
+}
+
+.mail {
+
+    width: 65px;
+    margin-left: 63px;
+    margin-top: 415px;
+   
+}
+
+.site {
+
+    width: 55px;
+    margin-left: -106px;
+    margin-top: 415px;
+
+}
+
+
+    
+
+
